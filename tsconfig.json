@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+	  "module": "Node16",
+	  "target": "ES2022",
+	  "lib": ["ES2022"],
+	  "sourceMap": true,
+	  "rootDir": "src",
+	  "strict": true,
+	  "moduleResolution": "Node16",  // Set this to 'Node16'
+	  "esModuleInterop": true,
+	  "allowSyntheticDefaultImports": true,
+	  "typeRoots": ["node_modules/@types"],
+	  "outDir": "out",
+	  "skipLibCheck": true,
+
+	},
+	"include": ["src/**/*"]
+  }
+  
